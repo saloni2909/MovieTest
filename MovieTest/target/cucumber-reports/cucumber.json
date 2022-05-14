@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7096528300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.initialSetup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Extract country name and release date of a movie from Wikipedia and Imdb",
+        "description": "",
+        "id": "to-validate-country-name-and-release-date-of-a-movie;extract-country-name-and-release-date-of-a-movie-from-wikipedia-and-imdb",
+        "after": [
+          {
+            "result": {
+              "duration": 1102183600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20846301800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to launch both the websites",
+            "match": {
+              "location": "StepDefinitions.i_want_to_launch_both_the_websites()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I extract country name and release date",
+            "match": {
+              "location": "StepDefinitions.i_extract_country_name_and_release_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3435300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I validate the country name and result date",
+            "match": {
+              "location": "StepDefinitions.i_validate_the_country_name_and_result_date()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate country name and release date of a movie",
+    "description": "",
+    "id": "to-validate-country-name-and-release-date-of-a-movie",
+    "keyword": "Feature",
+    "uri": "movie.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@WikiImdb"
+      }
+    ]
+  }
+]

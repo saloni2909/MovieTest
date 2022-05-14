@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30000" started-at="2022-05-13T16:03:06Z" finished-at="2022-05-13T16:03:36Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.movie.demo.runner.TestRunner@16aa0a0a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="30000" started-at="2022-05-13T16:03:06Z" finished-at="2022-05-13T16:03:36Z">
+      <class name="com.movie.demo.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.movie.demo.runner.TestRunner@16aa0a0a]" name="setUpClass" is-config="true" duration-ms="659" started-at="2022-05-13T16:03:06Z" finished-at="2022-05-13T16:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.movie.demo.runner.TestRunner@16aa0a0a]" name="feature" duration-ms="29098" started-at="2022-05-13T16:03:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-05-13T16:03:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To validate country name and release date of a movie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.movie.demo.runner.TestRunner@16aa0a0a]" name="tearDownClass" is-config="true" duration-ms="21" started-at="2022-05-13T16:03:36Z" finished-at="2022-05-13T16:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.movie.demo.runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
